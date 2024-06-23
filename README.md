@@ -10,9 +10,7 @@ distributions (non-normal multi-variate distributions), one gets different resul
 Therefore, we rely on MC simulations by repeatedly drawing random samples from a normal distribution.
 
 ## Figures:
-
 ![stocks_gif](https://github.com/ianpaga/MC_Stock_Portfolio/assets/57350668/b198c95f-80d0-4a0f-b959-965e913b6a2e)
-![MC_simulation_stock_portfolio](https://github.com/ianpaga/MC_Stock_Portfolio/assets/57350668/144cfa39-7ebe-4799-a062-fc32dbcb3e22)
 
 # Methods & Assuptions:
 
