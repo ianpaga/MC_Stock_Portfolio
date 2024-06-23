@@ -3,14 +3,7 @@ Monte Carlo Simulation of Stock Portfolio
 
 ## Description: 
 
-Monte Carlo (MC) is a computational simulation that relies on a *repeated random sampling* to estimate numerical results.
-
-More often than not, solutions to a system in physics (or finance) are not deterministic. If we place the same input in more complex models with different underlying 
-distributions (non-normal multi-variate distributions), one gets different results. Thus, there are no exact mathematical solutions for problems of this complexity.
-Therefore, we rely on MC simulations by repeatedly drawing random samples from a normal distribution.
-
-## Figures:
-![stocks_gif](https://github.com/ianpaga/MC_Stock_Portfolio/assets/57350668/b198c95f-80d0-4a0f-b959-965e913b6a2e)
+Monte Carlo (MC) is a computational simulation that relies on a *repeated random sampling* to estimate numerical results. More often than not, solutions to a system in physics (or finance) are not deterministic. If we place the same input in more complex models with different underlying distributions (non-normal multi-variate distributions), one gets different results. Thus, there are no exact mathematical solutions for problems of this complexity. Therefore, we rely on MC simulations by repeatedly drawing random samples from a normal distribution.
 
 # Methods & Assuptions:
 
@@ -35,6 +28,9 @@ where $Z_t$ are the samples from a normal distribution, and $I$ is the Identify 
 Notes: simple for MC for stocks when we have a MND. We use Cholesky to represent the daily returns by that formula,
 we take a bunch of uncorrelated sampled data that we sampled from a ND and we are correlating them through the use
 of this Lower Triangle Matrix $L$. The Cholesky decomposition introduces a correlation between the assets.
+
+## Figures:
+![stocks_gif](https://github.com/ianpaga/MC_Stock_Portfolio/assets/57350668/b198c95f-80d0-4a0f-b959-965e913b6a2e)
 
 ## Requirements: 
 1. Pandas
